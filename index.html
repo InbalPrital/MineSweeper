@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint1</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="init()">
+    <h1>💣💥 Mine Sweeper 💥💣</h1>
+    <div class="buttons">
+      <button onclick="chooseLevel(4,2)">Beginner</button>
+      <button onclick="chooseLevel(8,12)">Medium</button>
+      <button onclick="chooseLevel(12,30)">Expert</button>
+      <div class="timer">Timer: <span></span></div>
+    </div>
+    <div><button class="btn-restart" onclick="RestartGame()">🙂</button></div>
+    <table>
+      <tbody class="board"></tbody>
+    </table>
+    <script src="js/main.js"></script>
+  </body>
+</html>
